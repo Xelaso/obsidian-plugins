@@ -12,3 +12,4 @@ Description:
 - permutation: order matters
 - Combination: order does not matter
 ## Review
+- Empirical Rule
