@@ -1,0 +1,72 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Git/School/Classes",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "Tagged-Concepts": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "Status",
+                "operator": "not-contains",
+                "enabled": true,
+                "value": "Done"
+              },
+              {
+                "field": "Tagged-Concepts",
+                "operator": "contains",
+                "enabled": true,
+                "value": "Work"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "Due-Date",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "e7fb17f5-409c-49c8-ba99-a94ebfbc8212",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "dd391f42-10e1-43ee-b3a0-8bcbbb4ad645",
+      "name": "Classes"
+    }
+  ],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}

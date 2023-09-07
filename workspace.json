@@ -8,18 +8,41 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0cd74f3b042d55a7",
+            "id": "ba0cd2dd361a2003",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "obsidian-projects",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "ca5d9e55be9b4287",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Daily Notes/09-06-2023.md",
+                "file": "Git/Archived/Homework.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "98b4ed06ac799075",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git/Archived/Homework.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Daily Notes/09-06-2023.md",
+                "file": "Git/Archived/Homework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Daily Notes/09-06-2023.md",
+                "file": "Git/Archived/Homework.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Daily Notes/09-06-2023.md"
+                "file": "Git/Archived/Homework.md"
               }
             }
           },
@@ -166,7 +189,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 425.5
+    "width": 434.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,18 +200,28 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "templater-obsidian:Templater": false,
-      "workspaces:Manage workspace layouts": false
+      "obsidian-projects:Open projects": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "13ab3d99be595fc6",
+  "active": "3685d7613ad97320",
   "lastOpenFiles": [
+    "Git/Archived",
+    "Git/School/Classes/1 AP Statistics/Tree & Venn Diagram.md",
+    "Git/School/Classes/1 AP Statistics/Counting Principles.md",
+    "Git/Archived/Homework.md",
+    "Git/Daily Notes/09-07-2023.md",
+    "Git/Attatchments",
+    "Git/Templates/Class Database Template.md",
+    "Git/School/Untitled.md",
+    "Git/School/Classes/AP Statistics/Counting Principles.md",
+    "Git/School/Classes/1 AP Statistics",
     "Git/School/Classes/Database.md",
     "Git/Daily Notes/09-06-2023.md",
-    "Git/School/Classes/AP Statistics/Counting Principles.md",
-    "Git/Templates/Class Database Template.md",
     "Git/Zettelkasten Note Method.md",
     "Git/Templates",
     "Git/Daily Notes/2023-09-06.md",
