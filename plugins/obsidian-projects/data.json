@@ -10,7 +10,7 @@
       "dataSource": {
         "kind": "folder",
         "config": {
-          "path": "Git/School/Classes",
+          "path": "Git/School/Work",
           "recursive": true
         }
       },
@@ -21,6 +21,18 @@
             "fieldConfig": {
               "Tagged-Concepts": {
                 "hide": true
+              },
+              "path": {
+                "hide": true
+              },
+              "name": {
+                "width": 238
+              },
+              "Due-Date": {
+                "width": 142
+              },
+              "Class": {
+                "width": 101
               }
             }
           },
@@ -58,7 +70,47 @@
         }
       ],
       "id": "dd391f42-10e1-43ee-b3a0-8bcbbb4ad645",
-      "name": "Classes"
+      "name": "Work"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Git/School/Events",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "Date",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "d9a547cc-a5da-4390-b99d-3cb8fca346a2",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "54136336-0cab-40b5-8187-5b9144184861",
+      "name": "Events"
     }
   ],
   "preferences": {

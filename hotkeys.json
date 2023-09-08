@@ -1,1 +1,26 @@
-{}
+{
+  "templater-obsidian:Git/Templates/Class Notes Template.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "2"
+    }
+  ],
+  "quickadd:choice:a425cc5e-d232-42ce-bf84-c937091148fe": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "1"
+    }
+  ],
+  "quickadd:choice:e4714d54-110f-4754-990a-8bfafface57e": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "3"
+    }
+  ]
+}

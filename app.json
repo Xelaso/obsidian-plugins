@@ -1,3 +1,5 @@
 {
-  "attachmentFolderPath": "Git/Attatchments"
+  "attachmentFolderPath": "Git/Attatchments",
+  "propertiesInDocument": "visible",
+  "promptDelete": false
 }
