@@ -22,5 +22,13 @@
       ],
       "key": "3"
     }
+  ],
+  "cmdr:macro-0": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "P"
+    }
   ]
 }

@@ -10,77 +10,6 @@
       "dataSource": {
         "kind": "folder",
         "config": {
-          "path": "Git/School/Work",
-          "recursive": true
-        }
-      },
-      "newNotesFolder": "",
-      "views": [
-        {
-          "config": {
-            "fieldConfig": {
-              "Tagged-Concepts": {
-                "hide": true
-              },
-              "path": {
-                "hide": true
-              },
-              "name": {
-                "width": 238
-              },
-              "Due-Date": {
-                "width": 142
-              },
-              "Class": {
-                "width": 101
-              }
-            }
-          },
-          "filter": {
-            "conditions": [
-              {
-                "field": "Status",
-                "operator": "not-contains",
-                "enabled": true,
-                "value": "Done"
-              },
-              {
-                "field": "Tagged-Concepts",
-                "operator": "contains",
-                "enabled": true,
-                "value": "Work"
-              }
-            ]
-          },
-          "colors": {
-            "conditions": []
-          },
-          "sort": {
-            "criteria": [
-              {
-                "field": "Due-Date",
-                "order": "asc",
-                "enabled": true
-              }
-            ]
-          },
-          "id": "e7fb17f5-409c-49c8-ba99-a94ebfbc8212",
-          "name": "Table",
-          "type": "table"
-        }
-      ],
-      "id": "dd391f42-10e1-43ee-b3a0-8bcbbb4ad645",
-      "name": "Work"
-    },
-    {
-      "fieldConfig": {},
-      "defaultName": "",
-      "templates": [],
-      "excludedNotes": [],
-      "isDefault": false,
-      "dataSource": {
-        "kind": "folder",
-        "config": {
           "path": "Git/School/Events",
           "recursive": false
         }
@@ -107,10 +36,107 @@
           "id": "d9a547cc-a5da-4390-b99d-3cb8fca346a2",
           "name": "Table",
           "type": "table"
+        },
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "aaa8a539-c9af-4093-8e11-64c1da5ab198",
+          "name": "Calendar",
+          "type": "calendar"
         }
       ],
       "id": "54136336-0cab-40b5-8187-5b9144184861",
       "name": "Events"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#class-work"
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "Tagged-Concepts": {
+                "hide": true
+              },
+              "path": {
+                "hide": true
+              },
+              "name": {
+                "width": 272
+              }
+            }
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "Status",
+                "operator": "is-not",
+                "enabled": true,
+                "value": "Done"
+              },
+              {
+                "field": "Class",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "Due-Date",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "e3996baf-0801-4899-bd5a-e6a55714001f",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "ee252f44-ae1a-4d14-a273-6575630ea0e1",
+          "name": "Calendar",
+          "type": "calendar"
+        }
+      ],
+      "id": "ada4b4eb-a181-43cf-a11e-86dfe1541460",
+      "name": "Work"
     }
   ],
   "preferences": {
@@ -118,7 +144,12 @@
     "frontmatter": {
       "quoteStrings": "PLAIN"
     },
-    "commands": [],
+    "commands": [
+      {
+        "project": "ada4b4eb-a181-43cf-a11e-86dfe1541460",
+        "view": "ee252f44-ae1a-4d14-a273-6575630ea0e1"
+      }
+    ],
     "linkBehavior": "open-editor"
   }
 }
